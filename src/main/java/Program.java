@@ -17,7 +17,7 @@ public class Program {
             System.out.print("Enter initial deposit value: ");
             float balance=entrada.nextInt();
             System.out.println("Account data:");
-            //Product product=new Product(account,holder,balance);//
+            Product product=new Product(account,holder,balance);
         } else if (response=='n') {
 
         }else {
